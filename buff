@@ -1,0 +1,23 @@
+3-5
+10-14
+16-20
+12-18
+---
+3-5
+10-14
+12-18
+16-20
+---
+3-5
+10-18
+16-20
+---
+3-5
+10-20
+
+alg
+- sort start numbers from each of the ranges
+- compare end of each to start of next
+- IF end > start of next -> take next end and set as end of start number
+- ELIF end == start -> take later end of each
+- ELSE -> end < start so separate range
